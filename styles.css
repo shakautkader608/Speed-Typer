@@ -63,9 +63,9 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
-  left: 10%;
-  transform: translate(-50%, -50%);
+  top: 40%; 
+  left: 40%;
+  /* transform: translate(-50%, -50%); */
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -179,6 +179,7 @@ button {
   width: 100%;
   position: fixed;
   top: 0;
+  
 }
 
 @media only screen and (max-width: 700px) {
