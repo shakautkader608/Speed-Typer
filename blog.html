@@ -12,12 +12,19 @@
       <p>
         The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas
         sessionStorage data is cleared when the page session ends. A unique page session gets created once a document is
-        loaded in a browser tab. Page sessions are valid for only one tab at a time
+        loaded in a browser tab. Page sessions are valid for only one tab at a time.Local Storage is not session-based,
+        it must be deleted via javascript or manually and Session Storage's' session-based and works per window or tab.
+        This means that data is stored only for the duration of a session, until the browser is closed.
       </p>
     </section>
     <section>
       <h1>Difference between Global Scope and Block Scope</h1>
-      <p></p>
+      <p>
+        Global scope contains all of the things defined outside of all code blocks. A global variable has global scope.
+        A global variable is accessible from anywhere in the code. On the other hand, A variable when declared inside
+        the if or switch conditions or inside for or while loops, are accessible within that particular condition or
+        loop. To be consise the variables declared inside the curly braces are called as within block scope.
+      </p>
     </section>
     <section>
       <h1>How does Event Loop Work in JavaScrip.</h1>
